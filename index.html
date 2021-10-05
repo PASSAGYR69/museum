@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>museum</title>
+
+</head>
+<body>
+    <header>
+            <div class="header-container container">
+                <p><a href="/" class="log">Louvre</a> </p>
+                <nav class="ul-nav">
+                    <ul class="ul-nav">
+                        <li><a href="#visiting">Visiting</a></li>
+                        <li><a href="#explore">Explore</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#ticked-section">Tickets</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <section class="dark-section wrapper-welcome" id="welcome">
+                <div class="container welcome-container">
+                    <h1 class="dark-section-title h1-title">Welcome <br>to the Louvre</h1>
+                    <p class="h1-description">From the castle to the museum</p>
+                    <a href="tours/tour1.html" target="_blank" class="welcome-button">Discover the Louvre</a>
+                </div>
+        </section> 
+        <section class="section" id="visiting">
+            <div class="container">
+                <h2 class="section-title underline-title">Virtual tour</h2>
+                <div class="carts">
+                    <a href="tours/tour2.html" target="_blank"><img src="assets/jpg/Rectangle.jpg" alt="Royal palace" class="img-panorama" > <h3 class="h3">Royal palace</h3> <p class="description-panorama">360° Virtual Tour</p> <p class="description-panorama2">Google Street Panorama View</p> </a>
+                    <a href="tours/tour3.html" target="_blank"><img src="assets/jpg/Rectangle (1).jpg" alt="Denon wing" class="img-panorama" ><h3 class="h3">Denon wing</h3> <p class="description-panorama">360° Virtual Tour</p> <p class="description-panorama2">Google Street Panorama View</p></a>
+                    <a href="tours/tour4.html" target="_blank"><img src="assets/jpg/Rectangle (2).jpg" alt="Collonade perrault" class="img-panorama"><h3 class="h3">Collonade perrault</h3> <p class="description-panorama">360° Virtual Tour</p> <p class="description-panorama2">Google Street Panorama View</p></a>
+                    <a href="tours/tour5.html" target="_blank"><img src="assets/jpg/Rectangle (3).jpg" alt="Greek hall" class="img-panorama"><h3 class="h3">Greek hall</h3> <p class="description-panorama">360° Virtual Tour</p> <p class="description-panorama2">Google Street Panorama View</p></a>
+                    <a href="tours/tour6.html" target="_blank"><img src="assets/jpg/Rectangle (4).jpg" alt="Mona Lisa" class="img-panorama"><h3 class="h3">Mona Lisa</h3> <p class="description-panorama">360° Virtual Tour</p> <p class="description-panorama2">Google Street Panorama View</p></a>
+                    <a href="tours/tour7.html" target="_blank"><img src="assets/jpg/Rectangle (5).jpg" alt="Night palace" class="img-panorama"><h3 class="h3">Night palace</h3> <p class="description-panorama">360° Virtual Tour</p> <p class="description-panorama2">Google Street Panorama View</p></a>
+                </div>
+            </div>
+        </section> 
+        <section class="dark-section" id="explore">
+            <div class="container explore-container">
+                <div style="margin-right: 63px ">
+                    <h2 class="dark-section-title underline-title">Picture explore</h2>
+
+                    <p class="p-explore" style="padding-top: 85px;"> Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+                    <p class="p-explore"> It was cleaned in 1984 to remove a <span class="yellow-veil" >"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
+                    <p class="p-explore removed-1024-string"> The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+                </div>
+                <div class="two-pic">
+                    <img src="assets/jpg/las menias0.jpg" alt="Las Meninas" class="pic-explore">
+                    <img src="assets/jpg/las menias.jpg" alt="Las Meninas" class="pic-explore1">
+                </div>   
+            </div>
+        </section> 
+        <section class="video-section" id="video">
+            <div class="container video-container">
+                <div class="video-journey"> 
+                    <h2 class="section-title video-title">Video journey</h2>
+                    <p class="video-description">Enter and visit one of the most famous museums in the world and enjoy <br>masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                </div >
+                <video src="assets/video/ideo.mp4" class="video-screen" poster="assets/video/poster.jpg" controls><input type="range" value="40" min="0" max="100" step="1" class="progress"></video>
+
+            </div>
+        </section> 
+        <section class="dark-section" id="gallery" style="padding-bottom: 0;">
+            
+                <div class="container picture-container">
+                    <h2 class="dark-section-title">Art gallery</h2>
+                    <div class="picture-inner-container"></div>
+                </div>
+        </section>
+
+
+
+
+        <section class="section" id="ticked-section">
+            <div class="container">
+                <h2 class="section-title underline-title">Buy tickets</h2>
+                <div class="picture-and-tickets">
+                    <img src="assets/jpg/ticket-img.jpg" class="naked-woman" alt="Some naked woman">
+                    <div class="ticket-type">
+                        <h4 class="ticket-font">Ticket Type</h4>
+
+                        <label class="radio-container">Permanent exhibition
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="radio-container">Temporary exhibition
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="radio-container">Combined Admission 
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </div>
+                    <div class="amount">
+                        <h4 class="ticket-font ">Amount</h4>
+                        
+                        <div class="buy-continer">
+                            <button type="button" class="plus-minus" onclick="this.nextElementSibling.stepDown()">-</button>
+                            <input type="number" min="0" max="20" value="1" readonly class="number">
+                            <button type="button" class="plus-minus" onclick="this.previousElementSibling.stepUp()">+</button>
+                        </div>   
+
+                        <div class="buy-continer buy-continer1">
+                            <button type="button" class="plus-minus" onclick="this.nextElementSibling.stepDown()">-</button>
+                            <input type="number" min="0" max="20" value="1" readonly class="number">
+                            <button type="button" class="plus-minus" onclick="this.previousElementSibling.stepUp()">+</button>
+                        </div> 
+
+                       <p class="ticket-font total">Total €220</p>
+
+                       <button class="buy-button">Buy Now</button>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section> 
+
+        <div class="paralax">
+
+        </div>
+
+
+        <section class="section" id="contacts">
+            <div class="container">
+                <h2 class="section-title underline-title">Contacts</h2>
+                <div class="contacts-map">
+                    <div class="contacts-louvre">
+                       <span>Palais Royal <br>Musee du Louvre <br></span>
+                         <div class="contacts">
+                            address: 75001 Paris, France <br>
+                            phone: +33(0) 1 40 20 50 50 <br>
+                            mail: info@louvre.fr
+                         </div>
+                    </div>
+                    <img src="assets/jpg/map-pic.jpg" class="map-pic" alt="map-pic">
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer>
+    <div class="dark-section">
+        <div class="container footer">
+            <a href="/" class="log">Louvre</a>
+            <div class="footer-links">
+                <ul>
+                   
+                   <li><a href="#visiting">Visiting</a></li> 
+                   <li><a href="#explore">Explore</a></li>
+                   <li><a href="#video">Video</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#gallery">Gallery</a></li>  
+                   <li><a href="#ticked-section">Tickets</a></li>
+                   <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="soc-media-links">
+                
+                <a href="https://www.youtube.com/user/louvre"><div class="youtube-link"></div></a>
+                <a href="https://www.instagram.com/museelouvre/"><div class="insta-link"></div></a>
+                <a href="https://www.facebook.com/museedulouvre"><div class="facebook-link"></div></a>
+                <a href="http://twitter.com/museelouvre"><div class="twitter-link"></div></a>
+                <a href="https://www.pinterest.fr/museedulouvre/"><div class="pinterest-link"></div></a>
+
+
+
+            </div>
+           
+
+        </div>
+    </div>
+
+    <div class=" grey-line">
+        <div class="container footer2">
+            <p> &#169 2021</p>
+            <p>The Rolling Scopes School</p>
+            <a href="https://github.com/PASSAGYR69">PASSAGYR69</a>
+
+
+        </div>
+    </div>
+    </footer>
+
+    <script>
+
+        const progress = document.querySelector('.progress');
+
+        progress.addEventListener('input', function() {
+        const value = this.value;
+        this.style.background = `linear-gradient(to right, #82CFD0 0%, #82CFD0 ${value}%, #fff ${value}%, white 100%)`
+  })
+        
+    </script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
